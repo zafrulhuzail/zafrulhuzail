@@ -1,6 +1,6 @@
 # Hi there, I'm Zafrul 👋
 
-[![Portfolio](https://img.shields.io/badge/🌐-Portfolio-blue)](https://zafrulhuzail.github.io)
+[![Portfolio](https://img.shields.io/badge/🌐-Portfolio-blue)](https://zafrulhuzail.github.io/zafrulhuzail/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zafrul-zawahir)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:huzailakazaf@gmail.com)
 
