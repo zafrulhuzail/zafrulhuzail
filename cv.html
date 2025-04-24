@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV | Zafrul Huzail</title>
+    <!-- Reuse your existing styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* CV-specific styles */
+        .pdf-container {
+            height: 90vh;
+            width: 100%;
+            margin: 2rem 0;
+            border: 1px solid #eee;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+    <!-- Reuse your header from index.html -->
+    <header>
+        <div class="container header-content">
+            <img src="img/ZafrulHuzailMohdZawahir.jpeg" alt="Zafrul Huzail" class="profile-image">
+            <div class="header-text">
+                <h1>Zafrul Huzail Bin Mohd Zawahir</h1>
+                <p class="tagline">Computer Engineer | Embedded Systems Specialist | AR Developer</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Augsburg, Germany</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:huzailakazaf@gmail.com" style="color: white;">huzailakazaf@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+49 157 39635670</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Reuse your navigation from index.html -->
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html" class="active">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CV-specific content -->
+    <section class="container">
+        <h1 class="section-title">Curriculum Vitae</h1>
+        
+        <!-- PDF Viewer -->
+        <object class="pdf-container" data="pdf/cv.pdf" type="application/pdf">
+            <p>Your browser doesn't support PDFs. <a href="pdf/cv.pdf">Download instead</a></p>
+        </object>
+        
+        <a href="index.html" class="back-link">
+            <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+    </section>
+
+    <!-- Reuse your footer from index.html -->
+    <footer style="background-color: var(--primary); color: white; padding: 1rem 0; text-align: center;">
+        <p>&copy; 2025 Zafrul Huzail. All rights reserved.</p>
+    </footer>
+</body>
+</html>
